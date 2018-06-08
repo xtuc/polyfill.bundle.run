@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'react-emotion'
 
 import Fuse from "fuse.js";
-import data from '@babel/preset-env/data/built-in-features.js';
+import data from './data/built-in-features.js';
 
 import {Results} from "./Results.js";
 import './App.css';

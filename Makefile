@@ -1,5 +1,5 @@
 build-prod:
-	echo build
+	npm run build
 
 deploy: build-prod
 	s3_website cfg apply
