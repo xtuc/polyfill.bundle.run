@@ -14,7 +14,7 @@ const searchOptions = {
   ]
 };
 
-const toCoreJsBundleRunUrl = n => `https://bundle.run/core-js@2/modules/${n}.js`;
+const toCoreJsBundleRunUrl = n => `https://bundle.run/core-js@2.5.7/modules/${n}.js`;
 
 const data2 = Object.keys(data).map((k, id) => {
   return {
